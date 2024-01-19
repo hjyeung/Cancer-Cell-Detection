@@ -22,7 +22,7 @@ Please check that you have all required dependencies:
 
 ### Instructions
 - Make sure you are in the [frontend](./front-end) directory
-- Run `app.py` by `py app.py` (on Windows) or `python app.py` (on Mac)
+- Run `app.py`
 - If the server is successfully running, you will be able to access the frontend demo on [localhost:9999](http://localhost:9999) using web browser
 - Once you open the web page, you have 2 options:
     #### 1. Uploading a file
