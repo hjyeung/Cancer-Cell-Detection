@@ -16,7 +16,7 @@ def show_predict_stock_form():
 @app.route('/predict', methods=['GET', 'POST'])
 def results():
     if request.method == 'POST':
-      model = pickle.load(open("Support-Vector-Machine", "rb"))
+      model = pickle.load(open("Support-Vector-Machine-Model", "rb"))
       Xlabels = ["radius_mean","texture_mean","smoothness_mean","compactness_mean",
                  "symmetry_mean","fractal_dimension_mean","radius_se","texture_se",
                  "smoothness_se","compactness_se",
