@@ -1,5 +1,4 @@
 # Cancer Cell Detection
-
 The goal of this project is to classify tumors as benign or malignant given the tumor's physical attributes. A more comprehensive report of the project is included [here.](Cancer_Cell_Classification_Paper.pdf)
 
 There are 3 machine learning models stored in this repository. Our dataset is located in Cancer_Data.csv.
